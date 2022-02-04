@@ -484,3 +484,9 @@ ul, li {
 .back-face ul {
     transform: translateX(-20px);
 }
+
+@media (max-width: 320px) {
+    .Developers .developers__div {
+        display: static;
+    }
+}
