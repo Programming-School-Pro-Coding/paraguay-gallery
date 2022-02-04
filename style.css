@@ -486,6 +486,15 @@ ul, li {
 }
 
 @media (max-width: 320px) {
+    body {
+        width: 100vw;
+        min-width: 100vw;
+    }
+    
+    .carousel {
+        width: 100%;
+    }
+    
     .Developers .developers__div {
         display: static;
     }
