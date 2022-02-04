@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: lightcyan;
 }
 
 a {
@@ -439,5 +440,47 @@ ul, li {
   font-size: 20px;
   font-weight: 700;
   margin-left: 175px;
-  background: orange;
+}
+
+.background2 {
+  height: 200px;
+  background: cadetblue;
+}
+
+.img2 {
+  width: 300px;
+  height: 200px;
+  margin-left: 900px;
+  margin-top: 350px;
+  border: none;
+}
+
+.p2 {
+  font-size: 20px;
+  font-weight: 700;
+  direction: rtl;
+}
+
+.Developers {
+    margin-right: 20rem;
+    margin-top: 30rem;
+}
+
+.Developers .main-title {
+    margin-right: 15rem;
+}
+
+.Developers .developers__div {
+    display: flex;
+    padding: 5rem;
+    width: 100%;
+    margin-left: 150px;
+}
+
+.Developers .developers__div .wrapper {
+    width: 20rem;
+}
+
+.back-face ul {
+    transform: translateX(-20px);
 }
