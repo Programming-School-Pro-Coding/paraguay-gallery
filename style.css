@@ -425,7 +425,7 @@ ul, li {
   background: linear-gradient(375deg, transparent, transparent);
 }
 .background {
-  height: 2000px
+  height: 2000px;
   background: cadetblue;
 }
 
