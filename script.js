@@ -5,6 +5,7 @@ const nextButton = document.querySelector(".carousel_button--right");
 const prevButton = document.querySelector(".carousel_button--left");
 const dotsNav = document.querySelector(".carousel_nav");
 const dots = Array.from(dotsNav.children);
+console.log("Thanks For Visual Studio Code")
 
 const slideWidth = slides[0].getBoundingClientRect().width;
 
